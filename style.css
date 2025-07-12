@@ -1,0 +1,94 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+@font-face {
+  font-family: "Inter-Bold";
+  src: url("./assets/fonts/static/Inter-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Inter-Regular";
+  src: url("./assets/fonts/static/Inter-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Inter-SemiBold";
+  src: url("./assets/fonts/static/Inter-SemiBold.ttf");
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: hsl(0, 0%, 8%);
+}
+
+.center-element {
+  background-color: hsl(0, 0%, 12%);
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  border-radius: 15px;
+  align-items: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.bloc-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 14px;
+}
+
+img {
+  border-radius: 50%;
+}
+
+.bloc-top h1 {
+  color: hsl(0, 0%, 100%);
+  font-family: "Inter-Bold", sans-serif;
+}
+
+.bloc-top h3 {
+  color: hsl(30, 100%, 50%);
+  font-family: "Inter-SemiBold", sans-serif;
+}
+
+.bloc-top p {
+  color: hsl(0, 0%, 100%);
+  font-family: "Inter-Regular", sans-serif;
+}
+
+.bloc-bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 20px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.bloc-bottom a {
+  width: 100%;
+  background-color: hsl(0, 0%, 20%);
+  color: hsl(0, 0%, 100%);
+  text-align: center;
+  border-radius: 5px;
+  padding: 10px;
+  text-decoration: none;
+  font-family: "Inter-SemiBold", sans-serif;
+  transition: 0.4s ease;
+}
+
+.bloc-bottom a:hover {
+  background-color: hsl(30, 100%, 50%);
+  color: hsl(0, 0%, 20%);
+}
